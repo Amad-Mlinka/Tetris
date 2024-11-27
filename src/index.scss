@@ -1,0 +1,49 @@
+h1{
+  text-align: center;
+}
+.board{
+  border:2px solid black;
+  user-select: none;
+  width: fit-content;
+  margin: auto;
+}
+.row{
+  display: flex;
+}
+.cell{
+  width: 20px;
+  aspect-ratio: 1;
+  border: 1px solid black;
+  &.Empty{
+    background-color: lightgray;
+  }
+  
+  &.I {
+    background-color: rgb(80, 227, 230);
+  }
+
+  &.J {
+    background-color: rgb(36, 95, 223);
+  }
+
+  &.L {
+    background-color: rgb(223, 173, 36);
+  }
+
+  &.O {
+    background-color: rgb(223, 217, 36);
+  }
+
+  &.S {
+    background-color: rgb(48, 211, 56);
+  }
+
+  &.T {
+    background-color: rgb(132, 61, 198);
+  }
+
+  &.Z {
+    background-color: rgb(227, 78, 78);
+  }
+  
+}
